@@ -1,0 +1,49 @@
+pip install nltk
+pip install spacy
+pip install textblob
+pip install scikit-learn
+pip install pandas
+pip install numpy
+pip install matplotlib
+pip install seaborn
+pip install wordcloud
+pip install gensim
+pip install tqdm
+
+
+pip install beautifulsoup4 requests
+
+
+import nltk
+
+# Core NLP Data
+nltk.download('punkt')            # Tokenization
+nltk.download('stopwords')        # Stopwords
+nltk.download('wordnet')          # WordNet for synonyms/antonyms
+nltk.download('omw-1.4')          # WordNet language data
+nltk.download('averaged_perceptron_tagger')  # POS tagging
+nltk.download('maxent_ne_chunker')           # Named Entity Recognition
+nltk.download('words')            # Needed for NER
+nltk.download('movie_reviews')    # For sentiment examples (optional)
+nltk.download('reuters')          # For text examples (optional)
+
+
+python -m spacy download en_core_web_sm
+
+
+import nltk, spacy, gensim, textblob, sklearn, pandas, numpy, matplotlib, seaborn
+print("✅ All required libraries are successfully installed and working!")
+
+
+winget install --id=Ollama.Ollama -e
+
+
+ollama --version
+
+
+ollama pull phi-3
+
+ollama list
+
+
+ollama run phi3
